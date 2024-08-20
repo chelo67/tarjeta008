@@ -4,7 +4,7 @@
     --color-principal: black;
     --color-secundario: #ec552b;
     --color-terciario: #fff;
-    --color-oscuro: #252525;
+    --color-oscuro: #484848;
     --texto-principal: 'Poppins', sans-serif;
     --texto-secundario: "Lobster", sans-serif;
     --texto-color-title: #7B5F2E;
@@ -97,58 +97,42 @@ header {
 /* contacto */
 .contacto {
     width: 100%;
-    height: 50px;
+    height: 100px;
+    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 20px;
+    margin-top: 100px;
 }
-.iconos  {
-    width: 15%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.iconos i {
-    background-color: var(--color-principal);
-    padding: 15px;
-    color: #fff;
-    border-radius: 100%;
-    -webkit-box-shadow: -3px 4px 20px 4px rgba(0,0,0,0.64);
-    -moz-box-shadow: -3px 4px 20px 4px rgba(0,0,0,0.64);
-    box-shadow: -3px 4px 20px 4px rgba(0,0,0,0.64);
-    transition: 1s ease-in;
-}
-.iconos i:hover {
-    -webkit-box-shadow: -3px 4px 11px -200px rgba(0,0,0,0.64);
-    -moz-box-shadow: -3px 4px 11px -200px rgba(0,0,0,0.64);
-    box-shadow: -3px 4px 11px -200px rgba(0,0,0,0.64);
-}
-/* titulo redes */
-.titulo_redes {
+.contacto .redes {
     width: 100%;
-    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+.phone, .email, .web {
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-oscuro);
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    font-family: var(--texto-secundario);
-    font-size: 1.2rem;
-    color: var(--color-principal);
-    margin-top: 30px;
 }
-/* redes */
-.redes_sociales {
-    width: 90%;
-    height: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    align-items: center;
-    margin-top: 30px;
+.phone, .email, .web a  {
+    text-decoration: none;
+}
+.phone i, .email i, .web i {
+    color: var(--color-terciario);
 }
 
+/* informacion */
+.informacion {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
 /* botones --------*/
 .botones {
     position: fixed;
