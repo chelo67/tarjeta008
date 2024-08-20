@@ -69,6 +69,8 @@ header {
 .perfil .foto img { 
     width: 100px;
     height: 100%;
+    border: 5px solid #fff;
+    border-radius: 50%;
 }
 .perfil .nombre{
     display: flex;
