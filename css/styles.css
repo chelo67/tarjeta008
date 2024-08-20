@@ -1,12 +1,12 @@
 /* variables */
 
 :root {
-    --color-principal: #900582;
+    --color-principal: black;
     --color-secundario: #ec552b;
     --color-terciario: #fff;
     --color-oscuro: #252525;
     --texto-principal: 'Poppins', sans-serif;
-    --texto-secundario: 'Dancing Script', cursive;
+    --texto-secundario: "Lobster", sans-serif;
     --texto-color-title: #7B5F2E;
     --text-color-principal: #252525;
 }
@@ -56,33 +56,40 @@ header {
     border-radius: 20px 20px 0 0;
     position: relative;
 }
-
-.encabezado .foto {
-    margin-top: 30px;
-}
-
-.encabezado .foto img {
-    width: 100px;
-    border-radius: 100%;
-    position: absolute;
-    bottom: -75px;
-    left: 10%;
-    border: 3px solid white ;
-}
-/* nombre */
-.nombre {
-    margin-top: 30px;
-    width: 100%;
+.perfil {
+    width: 95%;
     height: 100px;
+    position: absolute;
+    bottom: -40%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil .foto img { 
+    width: 100px;
+    height: 100%;
+}
+.perfil .nombre{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-family: var(--texto-principal);
+    justify-content: center;
+    margin-top: 30px;
 }
-.nombre p {
+.nombre  {
+    width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-family: var(--texto-secundario);
+    color: var(--color-oscuro);
+    font-size: 0.9rem; 
+}
+
+.perfil .nombre p {
     font-family: var(--texto-principal);
-    font-size: 1.1rem;
     margin-top: -20px;
 }
 /* contacto */
