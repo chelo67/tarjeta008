@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tarjeta 001</title>
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Google Fonts Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts Dance script -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      navigator.serviceWorker.register("service-worker.js");
+    </script>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <!-- contenedor-->
+    <div class="contenedor">
+
+      <!-- encabezado -->
+       <header>
+        <div class="encabezado">
+          <div class="foto">
+            <img src="/img/foto_perfil.png" alt="foto" width="80px">
+          </div>
+        </div>
+       </header>
+      
+
+      <!--boton compartir ------------------------------->
+      <section class="botones">
+        <a href="#" class="boton_compartir">Compartir</a>
+        <a
+          href="https://drive.google.com/file/d/1UUhyFTXD8Ue5y8kOy1QZm7sD5kpDdUSa/view?usp=drive_link"
+          class="boton_guardar"
+          >Guardar contacto</a
+        >
+      </section>
+
+      <!--modal REDES SOCIALES-->
+      <section class="modal">
+        <div class="modal_container">
+          <h2>Compartir esta Tarjeta</h2>
+          <div class="modal_content">
+            <!--whatsapp-->
+            <a
+              href="https://api.whatsapp.com/send?text=Te%20comparto%20esta%20tarjeta%20https://chelo67.github.io/demo1-tarjeta/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-square-whatsapp fa-3x colorprincipal"></i>
+            </a>
+
+            <!--facebook-->
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=https://chelo67.github.io/demo1-tarjeta"
+              target="_blank"
+            >
+              <i class="fa-brands fa-square-facebook fa-3x colorprincipal"></i>
+            </a>
+
+            <!-- linkedin -->
+            <a
+              href="https://www.linkedin.com/sharing/share-offsite/?url=https://chelo67.github.io/demo1-tarjeta/"
+              ><i class="fa-brands fa-linkedin fa-3x"></i
+            ></a>
+          </div>
+          <div class="qr_image">
+            <img src="img/qr-code.png" width="250" alt="" />
+          </div>
+          <a href="#" class="modal_close">Cerrar</a>
+        </div>
+      </section>
+      <!-- fin modal REDES SOCIALES ------------------------->
+    </div>
+
+    <!-- Font Awesome -->
+    <script src="./js/modal.js"></script>
+    <script
+      src="https://kit.fontawesome.com/dbb4fa1064.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
