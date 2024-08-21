@@ -176,6 +176,13 @@ header {
     margin-bottom: 20px;
     align-items: center;
 }
+.botones div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
 .boton_compartir {
     text-decoration: none;
     text-align: center;
