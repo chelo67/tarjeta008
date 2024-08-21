@@ -1,8 +1,8 @@
 {
 "name": "Tarjeta 008",
 "short_name": "Tarjeta 008",
-"start_url": "/Tarjeta008/",
-"scope": "/Tarjeta008/",
+"start_url": "/tarjeta008/",
+"scope": "/tarjeta008/",
 "display": "standalone",
 "description": "A description for your application",
 "lang": " The default language of your application",
